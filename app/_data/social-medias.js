@@ -1,18 +1,14 @@
 export const socialMedias = [
   {
-    href: 'https://www.awwwards.com/dennissnellenberg/',
-    title: 'Awwwards',
+    href: 'https://mas.to/@atulyaraaj',
+    title: 'Mastodon',
   },
   {
-    href: 'https://www.instagram.com/codebydennis/',
-    title: 'Instagram',
+    href: 'https://codeberg.org/atuld',
+    title: 'Codeberg',
   },
   {
-    href: 'https://dribbble.com/dennissnellenberg',
-    title: 'Dribbble',
-  },
-  {
-    href: 'https://www.linkedin.com/in/dennissnellenberg/',
-    title: 'LinkedIn',
+    href: 'https://smp14.simplex.im/a#TxdtnPj8N_gtTIKeAECaLd8Z0VJid2Zo9UO6G_pEr0Y',
+    title: 'Simplex Chat',
   },
 ];

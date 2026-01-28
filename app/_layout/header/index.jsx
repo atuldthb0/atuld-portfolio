@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { MoveDownRight } from 'lucide-react';
-import { CldImage } from 'next-cloudinary';
+import Image from 'next/image';
 
 import { ParallaxSlider } from '@/components';
 
@@ -16,12 +16,12 @@ export function Header() {
       initial='initial'
       animate='enter'
     >
-      <CldImage
-        src='Dennis-Portfolio/images/lapetmmek4fymz68m4u8'
-        className='object-cover md:scale-125 md:object-contain'
+      <Image
+        src='/IMG_2701.JPG'
+        alt='Atuld Snellenberg Personal Picture'
         fill={true}
         sizes='100vw'
-        alt='Dennis Snellenberg Personal Picture'
+        className='object-cover md:scale-125 md:object-cover'
       />
 
       <div className='relative flex h-full flex-col justify-end gap-2 md:flex-col-reverse md:justify-normal'>
@@ -29,7 +29,7 @@ export function Header() {
           <h1 className='text-[max(9em,15vw)]'>
             <ParallaxSlider repeat={4} baseVelocity={2}>
               <span className='pe-12'>
-                Dennis Snellenberg
+                Atul Raj
                 <span className='spacer'>—</span>
               </span>
             </ParallaxSlider>

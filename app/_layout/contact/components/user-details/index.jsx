@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { ArrowDownLeft } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
-import { CldImage } from 'next-cloudinary';
 
 import { MagneticButton } from '@/components';
 
@@ -19,11 +19,11 @@ export function UserDetails({ transformX }) {
       <Row>
         <div className='flex items-center gap-8'>
           <ImageWrapper>
-            <CldImage
-              src='Dennis-Portfolio/images/mqtwxh5znybowgaljrbp'
-              className='rounded-full object-cover'
-              fill={true}
+            <Image
+              src='/IMG_2700.JPG'
               alt='Dennis Snellenberg Profile Picture'
+              fill={true}
+              className='rounded-full object-cover'
             />
           </ImageWrapper>
           <MainTitle>Let’s work</MainTitle>
@@ -54,27 +54,27 @@ export function UserDetails({ transformX }) {
       <Row>
         <div className='flex w-full flex-col gap-4 lg:flex-row'>
           <div>
-            <a href='mailto:info@dennissnellenberg.com'>
+            <a href='mailto:thebigocommunity@disroot.org'>
               <MagneticButton
                 variant='outline'
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                info@dennissnellenberg.com
+                thebigocommunity@disroot.org
               </MagneticButton>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a href='tel:+31627847430'>
               <MagneticButton
                 variant='outline'
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                +31 6 27 84 74 30
+                
               </MagneticButton>
             </a>
-          </div>
+          </div> */}
         </div>
       </Row>
     </Container>

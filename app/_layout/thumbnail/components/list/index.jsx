@@ -35,7 +35,7 @@ export function ThumbnailList({
         }}
       >
         <Link
-          href={href}
+          href={""}
           className='flex items-center justify-between max-lg:flex-wrap'
           passHref
         >
