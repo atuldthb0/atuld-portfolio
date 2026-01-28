@@ -12,7 +12,7 @@ import {
 export const metadata = {
   title: 'Home | Atul Raj',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Atuld',
+    'Helping brands thrive in the digital world. Located in India. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Atuld. This site was impossible without Jatin and Ofcourse Dennis Snellenberg.',
 };
 
 export default function Home() {
