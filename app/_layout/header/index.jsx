@@ -21,7 +21,7 @@ export function Header() {
         alt='Atuld Snellenberg Personal Picture'
         fill={true}
         sizes='100vw'
-        className='object-cover md:scale-125 md:object-cover'
+        className='object-cover md:scale-125 md:object-cover object-[30%_50%] md:object-center'
       />
 
       <div className='relative flex h-full flex-col justify-end gap-2 md:flex-col-reverse md:justify-normal'>

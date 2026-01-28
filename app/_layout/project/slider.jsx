@@ -23,7 +23,7 @@ export function ProjectSlider({ type, source }) {
 
   return (
     <Center
-      className='relative w-1/4 rounded'
+      className='relative w-1/4 rounded md:h-[60vw] md:min-w-[250px]'
       style={{
         minWidth: '150px',
         height: '20vw',
